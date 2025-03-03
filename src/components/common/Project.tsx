@@ -1,7 +1,6 @@
 import { dataProject } from "../../data";
 import React,{useState,useEffect} from "react"
 import { useInView } from 'react-intersection-observer';
-import { TypeAnimation } from 'react-type-animation';
 interface cardProps {
     imageLink:string;
     role:string;

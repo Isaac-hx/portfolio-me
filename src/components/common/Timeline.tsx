@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from "react"
 import { useInView } from 'react-intersection-observer';
-import { TypeAnimation } from 'react-type-animation';
 import { dataExperience } from "../../data";
 
 interface CardProps {
