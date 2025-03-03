@@ -36,9 +36,7 @@ const About: React.FC = () => {
   return (
     <div id="about" ref={ref} className="bg-white py-10">
       {/* Konten Utama */}
-      <h1 className={`ml-8 text-4xl font-bold mb-4 text-gray-800 transition-all duration-1000 ease-in-out ${
-        isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
-      }`}>
+      <h1 className={`ml-8 text-4xl font-bold mb-2 text-gray-800`}>
         About
       </h1>
 
